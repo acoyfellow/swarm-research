@@ -1,0 +1,9 @@
+.spike-key
+**/node_modules/
+.DS_Store
+*.log
+.wrangler/
+.real/
+*.secret
+*.token
+.dev.vars

@@ -1,0 +1,13 @@
+{
+  "name": "sr-edge",
+  "main": "src/index.ts",
+  "account_id": "bfcb6ac5b3ceaf42a09607f6f7925823",
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "browser": { "binding": "BROWSER" },
+  "worker_loaders": [{ "binding": "LOADER" }],
+  "durable_objects": { "bindings": [{ "name": "SESSION", "class_name": "Session" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Session", "Seat"] }],
+  "observability": { "enabled": true }
+}

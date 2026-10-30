@@ -1,0 +1,2 @@
+{ "name": "sr-pi-edge", "private": true, "type": "module",
+  "dependencies": { "@earendil-works/chord": "1.4.0", "@earendil-works/pi-ai": "1.4.0", "@earendil-works/pi-durable": "1.4.0", "just-bash": "3.6.0" } }

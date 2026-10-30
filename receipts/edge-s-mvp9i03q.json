@@ -1,0 +1,410 @@
+{
+ "session": "s-mvp9i03q",
+ "at": "2026-10-26T12:57:53.414Z",
+ "steps": {
+  "bash.cold": {
+   "status": 200,
+   "wallMs": 621,
+   "stdout": "/work:\nsrc\n\n/work/src:\nadd.js\n",
+   "stderr": "",
+   "exitCode": 0,
+   "savedFiles": 176,
+   "ms": 0
+  },
+  "bash.warm": {
+   "status": 200,
+   "wallMs": 270,
+   "stdout": "36\n1\n",
+   "stderr": "",
+   "exitCode": 0,
+   "savedFiles": 176,
+   "ms": 0
+  },
+  "bash.tools": {
+   "status": 200,
+   "wallMs": 231,
+   "stdout": "6\n15\nEXPORT CONST ADD = (A, B) => A + B;\n",
+   "stderr": "",
+   "exitCode": 0,
+   "savedFiles": 176,
+   "ms": 0
+  },
+  "bash.js-exec": {
+   "status": 200,
+   "wallMs": 233,
+   "stdout": "",
+   "stderr": "bash: js-exec: command not found\n",
+   "exitCode": 127,
+   "savedFiles": 176,
+   "ms": 0
+  },
+  "kill": {
+   "status": 200,
+   "wallMs": 314,
+   "killed": true
+  },
+  "bash.after-kill": {
+   "status": 200,
+   "wallMs": 263,
+   "stdout": "export const add = (a, b) => a + b;\n",
+   "stderr": "",
+   "exitCode": 0,
+   "savedFiles": 176,
+   "ms": 0
+  },
+  "seat.test.pass": {
+   "status": 200,
+   "wallMs": 99,
+   "passed": 0,
+   "failed": 2,
+   "error": "Error: No such module \"data:text/javascript,export%20const%20add%20%3D%20(a%2C%20b)%20%3D%3E%20a%20%2B%20b%3B\".",
+   "ms": 12
+  },
+  "seat.test.fail": {
+   "status": 200,
+   "wallMs": 164,
+   "passed": 0,
+   "failed": 1,
+   "error": "Error: No such module \"data:text/javascript,export%20const%20add%20%3D%20(a%2C%20b)%20%3D%3E%20a%20-%20b%3B\".",
+   "ms": 22
+  },
+  "swarm.10": {
+   "status": 200,
+   "wallMs": 336,
+   "seats": 10,
+   "results": [
+    {
+     "seat": 0,
+     "sum": 499500,
+     "ms": 0
+    },
+    {
+     "seat": 1,
+     "sum": 500500,
+     "ms": 0
+    },
+    {
+     "seat": 2,
+     "sum": 501500,
+     "ms": 0
+    },
+    {
+     "seat": 3,
+     "sum": 502500,
+     "ms": 0
+    },
+    {
+     "seat": 4,
+     "sum": 503500,
+     "ms": 0
+    },
+    {
+     "seat": 5,
+     "sum": 504500,
+     "ms": 0
+    },
+    {
+     "seat": 6,
+     "sum": 505500,
+     "ms": 0
+    },
+    {
+     "seat": 7,
+     "sum": 506500,
+     "ms": 0
+    },
+    {
+     "seat": 8,
+     "sum": 507500,
+     "ms": 0
+    },
+    {
+     "seat": 9,
+     "sum": 508500,
+     "ms": 0
+    }
+   ],
+   "ms": 76
+  },
+  "swarm.50": {
+   "status": 200,
+   "wallMs": 975,
+   "seats": 50,
+   "results": [
+    {
+     "seat": 0,
+     "sum": 499500,
+     "ms": 0
+    },
+    {
+     "seat": 1,
+     "sum": 500500,
+     "ms": 0
+    },
+    {
+     "seat": 2,
+     "sum": 501500,
+     "ms": 0
+    },
+    {
+     "seat": 3,
+     "sum": 502500,
+     "ms": 0
+    },
+    {
+     "seat": 4,
+     "sum": 503500,
+     "ms": 0
+    },
+    {
+     "seat": 5,
+     "sum": 504500,
+     "ms": 0
+    },
+    {
+     "seat": 6,
+     "sum": 505500,
+     "ms": 0
+    },
+    {
+     "seat": 7,
+     "sum": 506500,
+     "ms": 0
+    },
+    {
+     "seat": 8,
+     "sum": 507500,
+     "ms": 0
+    },
+    {
+     "seat": 9,
+     "sum": 508500,
+     "ms": 0
+    },
+    {
+     "seat": 10,
+     "sum": 509500,
+     "ms": 0
+    },
+    {
+     "seat": 11,
+     "sum": 510500,
+     "ms": 0
+    },
+    {
+     "seat": 12,
+     "sum": 511500,
+     "ms": 0
+    },
+    {
+     "seat": 13,
+     "sum": 512500,
+     "ms": 0
+    },
+    {
+     "seat": 14,
+     "sum": 513500,
+     "ms": 0
+    },
+    {
+     "seat": 15,
+     "sum": 514500,
+     "ms": 0
+    },
+    {
+     "seat": 16,
+     "sum": 515500,
+     "ms": 0
+    },
+    {
+     "seat": 17,
+     "sum": 516500,
+     "ms": 0
+    },
+    {
+     "seat": 18,
+     "sum": 517500,
+     "ms": 0
+    },
+    {
+     "seat": 19,
+     "sum": 518500,
+     "ms": 0
+    },
+    {
+     "seat": 20,
+     "sum": 519500,
+     "ms": 0
+    },
+    {
+     "seat": 21,
+     "sum": 520500,
+     "ms": 0
+    },
+    {
+     "seat": 22,
+     "sum": 521500,
+     "ms": 0
+    },
+    {
+     "seat": 23,
+     "sum": 522500,
+     "ms": 0
+    },
+    {
+     "seat": 24,
+     "sum": 523500,
+     "ms": 0
+    },
+    {
+     "seat": 25,
+     "sum": 524500,
+     "ms": 0
+    },
+    {
+     "seat": 26,
+     "sum": 525500,
+     "ms": 0
+    },
+    {
+     "seat": 27,
+     "sum": 526500,
+     "ms": 0
+    },
+    {
+     "seat": 28,
+     "sum": 527500,
+     "ms": 0
+    },
+    {
+     "seat": 29,
+     "sum": 528500,
+     "ms": 0
+    },
+    {
+     "seat": 30,
+     "sum": 529500,
+     "ms": 0
+    },
+    {
+     "seat": 31,
+     "sum": 530500,
+     "ms": 0
+    },
+    {
+     "seat": 32,
+     "sum": 531500,
+     "ms": 0
+    },
+    {
+     "seat": 33,
+     "sum": 532500,
+     "ms": 0
+    },
+    {
+     "seat": 34,
+     "sum": 533500,
+     "ms": 0
+    },
+    {
+     "seat": 35,
+     "sum": 534500,
+     "ms": 0
+    },
+    {
+     "seat": 36,
+     "sum": 535500,
+     "ms": 0
+    },
+    {
+     "seat": 37,
+     "sum": 536500,
+     "ms": 0
+    },
+    {
+     "seat": 38,
+     "sum": 537500,
+     "ms": 0
+    },
+    {
+     "seat": 39,
+     "sum": 538500,
+     "ms": 0
+    },
+    {
+     "seat": 40,
+     "sum": 539500,
+     "ms": 0
+    },
+    {
+     "seat": 41,
+     "sum": 540500,
+     "ms": 0
+    },
+    {
+     "seat": 42,
+     "sum": 541500,
+     "ms": 0
+    },
+    {
+     "seat": 43,
+     "sum": 542500,
+     "ms": 0
+    },
+    {
+     "seat": 44,
+     "sum": 543500,
+     "ms": 0
+    },
+    {
+     "seat": 45,
+     "sum": 544500,
+     "ms": 0
+    },
+    {
+     "seat": 46,
+     "sum": 545500,
+     "ms": 0
+    },
+    {
+     "seat": 47,
+     "sum": 546500,
+     "ms": 0
+    },
+    {
+     "seat": 48,
+     "sum": 547500,
+     "ms": 0
+    },
+    {
+     "seat": 49,
+     "sum": 548500,
+     "ms": 0
+    }
+   ],
+   "ms": 773
+  },
+  "browse.chromium": {
+   "status": 200,
+   "wallMs": 2451,
+   "engine": "chromium",
+   "launchMs": 1423,
+   "gotoMs": 314,
+   "title": "Example Domain",
+   "links": 1,
+   "screenshotBytes": 27954,
+   "ms": 2339
+  },
+  "browse.kitesurf": {
+   "status": 200,
+   "wallMs": 1071,
+   "engine": "kitesurf",
+   "launchMs": 459,
+   "gotoMs": 135,
+   "title": "Example Domain",
+   "links": 1,
+   "screenshotBytes": 27954,
+   "ms": 810
+  }
+ }
+}
